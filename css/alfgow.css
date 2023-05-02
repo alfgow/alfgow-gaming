@@ -253,11 +253,19 @@ blockquote p {
 }
 
 footer {
-	background-color: #ffffff;
+	background-color: var(--alfgow);
 	text-align: center;
-	height: 70px;
-	color: #251f24;
-	padding-top: 20px;
+	color: black;
+	padding-block: 0.5rem;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.footerText {
+	color: black;
+	font-weight: bold;
 }
 
 .itemTitle {
