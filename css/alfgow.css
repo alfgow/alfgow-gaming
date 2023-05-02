@@ -288,6 +288,19 @@ footer {
 	gap: 1rem;
 }
 
+.itemAccesories {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-block-end: 1rem;
+}
+
+.itemAccesories img {
+	width: 250px;
+	margin: 0;
+	border-radius: 2rem;
+}
+
 .producto img {
 	height: 250px;
 	width: 250px;
